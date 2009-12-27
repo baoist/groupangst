@@ -1211,3 +1211,1223 @@ ActionController::RoutingError (No route matches "/javascripts/prototype.js" wit
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:12:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:12:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:12:42) [GET]
+  [4;36;1mDiscussion Load (0.8ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 231ms (View: 108, DB: 1) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:12:56) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:12:57) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:12:59) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:13:00) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:14:18) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 75ms (View: 71, DB: 1) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:14:30) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 18ms (View: 13, DB: 1) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:14:31) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:14:32) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:15:13) [GET]
+  [4;35;1mDiscussion Load (0.6ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:15:27) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:15:28) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 06:15:30) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 06:15:33) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 284ms (View: 56, DB: 0) | 200 OK [http://0.0.0.0/login]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 06:16:25) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 17ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/login]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 06:16:31) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 89ms (View: 77, DB: 0) | 200 OK [http://0.0.0.0/login]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 06:16:37) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/login]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 06:17:16) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 15ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/login]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 06:17:46) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 97ms (View: 85, DB: 0) | 200 OK [http://0.0.0.0/login]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 06:18:02) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 17ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/login]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 06:18:14) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 19ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/login]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:18:22) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 122ms (View: 41, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:18:34) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"admin@jakedahn.com"}}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'admin@jakedahn.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '3107705d51dba913d816c2a4eac086ca7eb4e16758370505d13f6ad83793e73b643f90aa3caad8e30bd8937ce56d2861f4c5d0c363502337eb48b00cadda97a7') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 357ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:19:04) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"admin@jakedahn.com"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'admin@jakedahn.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '27aae2828ee9da15409f9d754fbfd6e9126f389c724b6f64b21835289508656ee30419ef9445bedd2b9d6a30c12ba35598e45616ce5df4f170b20b7bb2438b5e') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 31ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:20:35) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"admin@jakedahn.com"}}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'admin@jakedahn.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'afa1edfc432d34c41362ce1a281fb63de421ddc3e597029217302d57e525cf9dbd1cf90fb695ffe0e985a0308fd5cde9bbd484fb485629998eaca584f805b0d1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 21ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-12-27 06:23:24) [GET]
+
+ActionView::MissingTemplate (Missing template users/index.erb in view path app/views):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+  vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:23:31) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:25:18) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:25:19) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:25:33) [GET]
+Rendering template within layouts/application
+Rendering users/new
+
+ActionView::TemplateError (undefined method `new' for #<User:0x103490698>) on line #3 of app/views/users/new.haml:
+1: %h3 Register
+2: 
+3: - form_for @user.new do |f|
+4:   %fieldset
+5:     = f.label :username
+6:     = f.text_field :username
+
+    app/views/users/new.haml:3:in `_run_haml_app47views47users47new46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (129.7ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:26:26) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 46ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:26:44) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:26:45) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 16ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:26:46) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 90ms (View: 82, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:27:00) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'cd3b0775ba043ad854c2f365ae2faad780f892aba454f0ea1d083c1504076bd29f170f0045df2d79e055c2ec80a91e4402c1c8a60f9b464c153eb2cdec6f2d16') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 20ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:28:38) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (6.8ms)
+Completed in 26ms (View: 17, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:28:52) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (6.1ms)
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:30:24) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (6.9ms)
+Completed in 122ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:30:27) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (4.4ms)
+Completed in 16ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:30:40) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+
+ActionController::MethodNotAllowed (Only get, put, and delete requests are allowed.):
+  
+
+Rendered rescues/_trace (30.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:33:27) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+
+ActionController::MethodNotAllowed (Only get, put, and delete requests are allowed.):
+  
+
+Rendered rescues/_trace (25.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:34:05) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+
+ActionController::MethodNotAllowed (Only get, put, and delete requests are allowed.):
+  
+
+Rendered rescues/_trace (110.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:34:08) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (41.1ms)
+Completed in 52ms (View: 43, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:34:12) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (5.3ms)
+Completed in 19ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:36:14) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (6.6ms)
+Completed in 23ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:36:19) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+
+ActionController::MethodNotAllowed (Only get, put, and delete requests are allowed.):
+  
+
+Rendered rescues/_trace (25.7ms)
+Rendered rescues/_request_and_response (78.8ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:37:31) [GET]
+Rendering template within layouts/application
+Rendering users/new
+ERROR: compiling _run_haml_app47views47users47_form46haml_locals_form_object RAISED compile error
+/Users/jakedahn/Desktop/ang.st/lessangst/app/views/users/_form.haml:1: syntax error, unexpected kDO_BLOCK, expecting tASSOC
+...or :method => "post", @user do |f|;
+                              ^
+/Users/jakedahn/Desktop/ang.st/lessangst/app/views/users/_form.haml:19: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47users47_form46haml_locals_form_object(local_assigns)
+            old_output_buffer = output_buffer;object = local_assigns[:object];form = local_assigns[:form];;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false, :format=>:xhtml, :preserve=>["textarea", "pre"], :encoding=>nil});_erbout = _hamlout.buffer;__in_erb_template = true;; form_for :method => "post", @user do |f|;
+
+
+
+
+
+
+_hamlout.push_text("#{haml_temp =  f.error_messages
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<fieldset>\n  #{_hamlout.adjust_tabs(1); haml_temp =  f.label :username
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  #{haml_temp =  f.text_field :username
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n</fieldset>\n<fieldset>\n  #{haml_temp =  f.label :email
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  #{haml_temp =  f.text_field :email
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n</fieldset>\n<fieldset>\n  #{haml_temp =  f.label :password
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  #{haml_temp =  f.password_field :password
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n</fieldset>\n<fieldset>\n  #{haml_temp =  f.label :password_confirmation
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  #{haml_temp =  f.password_field :password_confirmation
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n</fieldset>\n<fieldset>\n  #{haml_temp =  f.submit "Submit"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n</fieldset>\n", -1, false);end;@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/jakedahn/Desktop/ang.st/lessangst/app/views/users/_form.haml:19:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:20:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:19:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/partials.rb:184:in `render_partial'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:267:in `render_without_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.2.6/lib/haml/helpers.rb:96:in `non_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/jakedahn/Desktop/ang.st/lessangst/app/views/users/new.haml:3:in `_run_haml_app47views47users47new46haml'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:306:in `with_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:30:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.2.6/lib/sass/plugin/rails.rb:19:in `process_without_compass'
+/Users/jakedahn/Desktop/ang.st/lessangst/vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/jakedahn/Desktop/ang.st/lessangst/app/views/users/_form.haml:1: syntax error, unexpected kDO_BLOCK, expecting tASSOC
+...or :method => "post", @user do |f|;
+                              ^
+/Users/jakedahn/Desktop/ang.st/lessangst/app/views/users/_form.haml:19: syntax error, unexpected kENSURE, expecting $end) on line #1 of app/views/users/_form.haml:
+1: - form_for :method => "post", @user do |f|
+2:   = f.error_messages
+3:   %fieldset
+4:     = f.label :username
+
+    app/views/users/_form.haml:19:in `compile!'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.6) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/users/new.haml:3:in `_run_haml_app47views47users47new46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (82.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:37:45) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (6.6ms)
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:37:50) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '5804b52491b6e4a504d139f55875b1e59aaeeb6a644d996f13f560e3ca8cee28c4495e6d919944e2978184abeb0b726c59c8dd03b8320a078e6149c01719dd19') LIMIT 1[0m
+  [4;36;1mUser Create (0.6ms)[0m   [0;1mINSERT INTO "users" ("created_at", "crypted_password", "updated_at", "username", "password_salt", "persistence_token", "email") VALUES('2009-12-27 12:37:50', '122e9aec20b5a2c6d93e06d1a048c2a36b28fc68c431d64d407df838e1168f07b7b1c7fe7cf81eea204cbf0916681fb5154b6ce10a5b3a80d1b6d37e18408445', '2009-12-27 12:37:50', 'jakedahn', 'M_ke4SRoy9-uU1XdHLSJ', '5804b52491b6e4a504d139f55875b1e59aaeeb6a644d996f13f560e3ca8cee28c4495e6d919944e2978184abeb0b726c59c8dd03b8320a078e6149c01719dd19', 'jake@ang.st')[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 22ms (DB: 1) | 302 Found [http://0.0.0.0/users]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:37:50) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:37:51) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:30) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:30) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:43) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:43) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:44) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:44) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:45) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:45) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:53) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:53) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:58) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:41:58) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:42:03) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:42:03) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:42:25) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:42:25) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:43:13) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:43:13) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:43:14) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:43:14) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:43:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:43:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:43:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 06:44:13) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (16.9ms)
+Completed in 112ms (View: 35, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:44:19) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '8719b003a18294592774c491ac57b5f3cf037f57dbc70fc04778c61123320b224d66ebb0dd80c9f6752739d01301727d1f30a72e090a03a1a42dd5118f34bfd8') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (8.4ms)
+Completed in 211ms (View: 11, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:44:35) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '43500b74681ee17d45f21d5848ee72241bfc68ca3e1e10d59447bd6d5c8e9ea628a6665d65f9f1d2bfea09cfa4d8b249e8a49460c1814d8a3a6426eb85b78fbe') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (7.9ms)
+Completed in 26ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:45:00) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'd5725838f719d0fabc8211bbf0b5c095393a9a472d8382f43ebaf699ad0e27aa5e7f91fd8634381fcb1efb64db2c7d9cd53a78f6f529d7f230b5a602142a5db6') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (86.6ms)
+Completed in 108ms (View: 93, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:48:44) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'cd5db235fc482920b3475825c785d8b8c870acec99e2eed8544fc851aaf36fa90bc79d0096752457c28f3a6b3c3a0226d0ac3994215ff2a11d7856a603594866') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (8.6ms)
+Completed in 34ms (View: 11, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:48:46) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '34fe3b5b69757a6903d93e6c9585cd854df138391d9fbf519e7f71013cac2dc163620abaee2795213603a08101310c888d439a895a5d9bbf95adf8e8706e9cc5') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (7.8ms)
+Completed in 25ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:48:59) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'e14ae341bdec4a83937cc56baf22b8581cd1c0fa4f764389fcbddfc75f82515ab3d5c2391c56b1cf722750072c26af542196deb4ece2dc4463f12930f2fee404') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (11.9ms)
+Completed in 30ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:49:30) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '1f0da7c683c51914f62b7ec2d3a79b234d2826c01a8c643d689373f7509376f38c641aeea2014a7685255727bd26866247891306672f531bef1f088a42a4435b') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (9.6ms)
+Completed in 33ms (View: 13, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:49:42) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '890c8f3e7bc5df4b1639d927bc665033c8ea09e61c0f4cf7e0f2607a3f5138316d3112abe235f001b79337153277f49d1532e0808b8738186c15b24583373a63') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (15.5ms)
+Completed in 35ms (View: 18, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:49:55) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'a464a9b7f66290f5e95ec22149c340b1eaefcb3ea28c24e52e50e62d6a39c71ee6e2dfd46bf0b3a8c0257d52d04b35391aea5cf227044232eaec204b3ce87ef1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (9.0ms)
+Completed in 30ms (View: 15, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:50:11) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (1.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'bb991cce853bd5e223444a310cb4e2258fb77c05d4deffa906961dd3eb1e49719bf217373c7df2d9ac4b970d32c6fbfea35d804acb947d1c8c5a2425b5b33107') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (10.1ms)
+Completed in 31ms (View: 13, DB: 2) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:50:17) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '86de6a9907f9cb30ed99f9fc38a819a7af38f06904d32c7196a8ab303d8518397244dbd6cdba39642b71b4ab06d4b22c1e1ed08e9008636d77dfeb9ec1a89b19') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (104.8ms)
+Completed in 122ms (View: 107, DB: 0) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:50:42) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '3fa033cec0554cca510f5c49c6576e3e84f782d50e4b3a11ce893abea42e3d2e558ace872a6cb5dee827bc553f38cccc63e473834a2d08b86cd1b90afa719db2') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (9.8ms)
+Completed in 31ms (View: 12, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:50:52) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '089e6e31cda17c3d6bea6ce602734cf5ea9fed19708b76e0952bfe4056da1690b3adbe88839a365d3f01e4afdac88dc90baab31ca7c8432fec63b671773a01b6') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (8.4ms)
+Completed in 25ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:51:05) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '7cf5c5aeaa138f392fa108bc9ab5cdea83d293ba204972b7d7a6e9e97c0fae5c88a12ba24cd91932fb71705029e3b858bd7140c625c926631a86b541a5138480') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (9.3ms)
+Completed in 29ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:52:24) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'a13e8d1bfa6006f0f009272f723e54c4832712180cf655ee7615ca9f594bc9e288dceeaccdf3f4b9e4f30cb3eb1bf9b90a70fc06f428ef450d842d3bced6abd8') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (11.1ms)
+Completed in 31ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:52:36) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '955701d4d087de4202618ac40693adab99be49d21c0bf87809d072780efd44d7aa84449fde07dbdf9ef574743b5f8e954deee05ac7cb83cdc47cb7ee5f9c7162') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (11.0ms)
+Completed in 223ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:52:48) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'b3c4c0c782bfb4591114a569ac714ef18c34edc840766bf4ca870f361cf6c5ecb1b3598fea11276767c0edbe8adec7a328f211e160c545350beb34bc995b8728') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (11.3ms)
+Completed in 32ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:52:54) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'ff075dac37e3958d6e73ae440a21661e982770b2bcbc62f88374afd2b1eabebc2eccbbbf957f01156fc3b89d6cd778c3ab5684b8b52a33450b793f67514099e6') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (9.9ms)
+Completed in 30ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:53:00) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '6bfbd9771a1b4ceba95ea37c58f4f01c1dcda004c56f27cfc103fa3ed2a1c922affa839d1091fe87fbe4aba63d0b31536e552f55a013d9c4b92a83b895850495') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (11.3ms)
+Completed in 31ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:53:38) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'c756dcd401e5bf581c191668487fcf95f7395c5f6284d575e3c7cff24f96200e3bfc3c550cfe70e8af4ceed15afe071487ca065841949c48b94010e1c9b8cf27') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (8.0ms)
+Completed in 36ms (View: 11, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:54:14) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '22344b61ac5789323b38e4e80d1b8831c2815df78f9e1fec82b473b76d59f9dd2ba2aa0338fab2a1487629a36449857a2d424ac759219389a97f02f7052afd85') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (8.5ms)
+Completed in 115ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 06:55:03) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU=", "user"=>{"password_confirmation"=>"batsoup221", "username"=>"jakedahnsfaf", "password"=>"batsoup221", "email"=>"jakes@ang.st"}}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jakes@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahnsfaf') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'cf5f0aef897bdc9c7d902b85cd5844eb82c69c4eb63db7a3cd96614e662ab8f00296da55b3a12df3cf7231a15d9f48f037e0f48fd2a7b914e05035742f0ba7a0') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."persistence_token" = '5804b52491b6e4a504d139f55875b1e59aaeeb6a644d996f13f560e3ca8cee28c4495e6d919944e2978184abeb0b726c59c8dd03b8320a078e6149c01719dd19') LIMIT 1[0m
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO "users" ("created_at", "crypted_password", "updated_at", "username", "password_salt", "persistence_token", "email") VALUES('2009-12-27 12:55:04', '89bc74c5c6beefe8f709738a5e4b3cafedf1e4fe56406287895e4641bbe4c1b8fe0e55ef3830439fd878f5f30ab870414cd117f41621cd4cec6176e763e789b4', '2009-12-27 12:55:04', 'jakedahnsfaf', 'NsbTGyEMErvkWVfHOlke', 'cf5f0aef897bdc9c7d902b85cd5844eb82c69c4eb63db7a3cd96614e662ab8f00296da55b3a12df3cf7231a15d9f48f037e0f48fd2a7b914e05035742f0ba7a0', 'jakes@ang.st')[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 463ms (DB: 1) | 302 Found [http://0.0.0.0/users]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:55:04) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 06:55:04) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 07:01:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 07:01:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 07:01:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 07:01:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 07:01:51) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 07:01:51) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 07:03:24) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 07:03:25) [GET]
+
+ActionController::RoutingError (No route matches "/rails/info/properties" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 07:03:34) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 07:04:28) [GET]
+
+ActionController::RoutingError (No route matches "/rails/info/properties" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 07:05:41) [GET]
+  [4;36;1mDiscussion Load (0.8ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 28ms (View: 22, DB: 1) | 200 OK [http://0.0.0.0/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 07:06:02) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 70ms (View: 58, DB: 0) | 200 OK [http://0.0.0.0/login]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2009-12-27 07:06:08) [POST]
+  Parameters: {"commit"=>"Register", "user_session"=>{"username"=>"jakedahn", "password"=>"batsoup221"}, "authenticity_token"=>"mdfrjNFA9CZcMJv3cTlFUVXvDXoaYfmWNLUh0OOq9NU="}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE (LOWER("users".username) = 'jakedahn') LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/discussions
+Completed in 200ms (DB: 0) | 302 Found [http://0.0.0.0/user_sessions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 07:06:08) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 07:08:15) [GET]
+  [4;35;1mDiscussion Load (1.2ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Completed in 49ms (View: 41, DB: 2) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 07:08:25) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Completed in 32ms (View: 26, DB: 1) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-12-27 07:08:27) [GET]
+  Parameters: {"id"=>"current"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (5.5ms)
+Completed in 139ms (View: 124, DB: 0) | 200 OK [http://0.0.0.0/users/current/edit]
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2009-12-27 07:08:39) [GET]
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/discussions
+Completed in 15ms (DB: 0) | 302 Found [http://0.0.0.0/logout]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 07:08:39) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 104ms (View: 99, DB: 0) | 200 OK [http://0.0.0.0/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 07:13:27) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 56ms (View: 52, DB: 1) | 200 OK [http://0.0.0.0/]
+
+
+Processing DiscussionsController#show (for 127.0.0.1 at 2009-12-27 07:13:31) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mDiscussion Load (0.2ms)[0m   [0mSELECT * FROM "discussions" WHERE ("discussions"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering discussions/show
+Completed in 104ms (View: 98, DB: 0) | 200 OK [http://0.0.0.0/discussions/1]

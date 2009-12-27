@@ -1,20 +1,10 @@
-<% title "Discussion" %>
+#discussion
+  %h3= @discussion.author
+  %p.subject= @discussion.subject
+  %p= @discussion.message
 
-<p>
-  <strong>Author:</strong>
-  <%=h @discussion.author %>
-</p>
-<p>
-  <strong>Subject:</strong>
-  <%=h @discussion.subject %>
-</p>
-<p>
-  <strong>Message:</strong>
-  <%=h @discussion.message %>
-</p>
 
-<p>
-  <%= link_to "Edit", edit_discussion_path(@discussion) %> |
-  <%= link_to "Destroy", @discussion, :confirm => 'Are you sure?', :method => :delete %> |
-  <%= link_to "View All", discussions_path %>
-</p>
+  = link_to "Edit", edit_discussion_path(@discussion)
+  = link_to "Destroy", @discussion, :confirm => 'Are you sure?', :method => :delete
+  = link_to "View All", discussions_path
+

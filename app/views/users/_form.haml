@@ -1,16 +1,17 @@
-<% form_for @user do |f| %>
-  <%= f.error_messages %>
-  <p>
-    <%= f.label :username %><br />
-    <%= f.text_field :username %>
-  </p>
-  <p>
-    <%= f.label :email %><br />
-    <%= f.text_field :email %>
-  </p>
-  <p>
-    <%= f.label :password %><br />
-    <%= f.text_field :password %>
-  </p>
-  <p><%= f.submit "Submit" %></p>
-<% end %>
+- form_for @user, :method => "post" do |f|
+  = f.error_messages
+  %fieldset
+    = f.label :username
+    = f.text_field :username
+  %fieldset
+    = f.label :email
+    = f.text_field :email
+  %fieldset
+    = f.label :password
+    = f.password_field :password
+  %fieldset
+    = f.label :password_confirmation
+    = f.password_field :password_confirmation
+
+  %fieldset
+    = f.submit "Submit"

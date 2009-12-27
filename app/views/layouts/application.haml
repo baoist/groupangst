@@ -14,11 +14,16 @@
       #header
         %h1= "Less Angst"
         %ul#nav
-          %li= link_to "Register", new_user_path
-          %li= link_to "Login", login_path
+          -if current_user
+            %li= link_to "Edit Profile", edit_user_path(:current)
+            %li= link_to "Logout", logout_path
+          - else
+            %li= link_to "Register", new_user_path
+            %li= link_to "Login", login_path
+          
       #flashInfo
-        = flash[:notice]
-        = flash[:error]
+        = h(flash[:notice])
+        = h(flash[:error])
       #content
         = yield
       #footer

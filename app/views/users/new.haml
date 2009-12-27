@@ -1,18 +1,3 @@
-%h3 Register
+%h2 Register
 
-- form_for @user do |f|
-  %fieldset
-    = f.label :username
-    = f.text_field :username
-  %fieldset
-    = f.label :email
-    = f.text_field :email
-  %fieldset
-    = f.label :password
-    = f.password_field :password
-  %fieldset
-    = f.label :password_confirmation
-    = f.password_field :password
-
-  %fieldset
-    = f.submit "Register"
+= render :partial => 'form'
