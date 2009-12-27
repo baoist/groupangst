@@ -10,5 +10,6 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :users
   map.resources :articles
   map.resources :comments
+  map.resources :discussions
   map.root :controller => 'discussions'
 end
