@@ -1,0 +1,1181 @@
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20091227091708)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "crypted_password" varchar(255), "password_salt" varchar(255), "persistence_token" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091227091708')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:43:35) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:43:36) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:46:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:46:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:47:34) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:47:34) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:49:05) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:49:05) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:49:08) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:49:08) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:49:13) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:49:13) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:49:14) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:49:14) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:49:15) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 03:49:15) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-12-27 03:49:20) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: create, edit, new, and update):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+  vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 03:49:39) [GET]
+Rendering template within layouts/application
+Rendering users/new
+
+ActionView::TemplateError (undefined method `title' for #<ActionView::Base:0x1036e8f30>) on line #1 of app/views/users/new.html.erb:
+1: <% title "New User" %>
+2: 
+3: <%= render :partial => 'form' %>
+
+    app/views/users/new.html.erb:1
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (44.4ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20091227091708)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 03:52:24) [GET]
+Rendering template within layouts/application
+Rendering users/new
+
+ActionView::TemplateError (undefined method `title' for #<ActionView::Base:0x1034c4448>) on line #1 of app/views/users/new.html.erb:
+1: <% title "New User" %>
+2: 
+3: <%= render :partial => 'form' %>
+
+    app/views/users/new.html.erb:1
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (53.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 04:02:06) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 136ms (View: 126, DB: 0) | 200 OK [http://looce.com/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 04:04:14) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 20ms (View: 11, DB: 0) | 200 OK [http://looce.com/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 04:04:28) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://looce.com/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 04:06:26) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://looce.com/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 04:06:35) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"FrSNMP3kKSSi1pUgi6kkRjalBsZ3VmROmyKyTAJ+Dwc=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '3e0141cff0f4ba3e5b31f1f795b874a25475577e8b06dec16bfa5a71b79adbd1366648dacd50af93863bcefd51bc3e38ef42a66ea3716c26c850833d24302d1c') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 280ms (View: 7, DB: 0) | 200 OK [http://looce.com/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 04:09:32) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"FrSNMP3kKSSi1pUgi6kkRjalBsZ3VmROmyKyTAJ+Dwc=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '3e0185244483d38d1f5cb3e136f20e4f98f44c8ee377a0a3eee9a3a40ffbb25790c557dc8436767ecf7e32929e1094a17eba24389bdb2b55f6e5300dc1ee59f8') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 21ms (View: 6, DB: 0) | 200 OK [http://looce.com/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 04:09:59) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"FrSNMP3kKSSi1pUgi6kkRjalBsZ3VmROmyKyTAJ+Dwc=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '71d9e732ae0dc2673e0be7747e0b3b248e1cce161946b2efea3faf67edaa4e44a777be2d471ed41241f65b95d1c5fc6a905e2d6b5fb5ed7b736c788a6e77f52b') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 26ms (View: 12, DB: 0) | 200 OK [http://looce.com/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 04:10:02) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"FrSNMP3kKSSi1pUgi6kkRjalBsZ3VmROmyKyTAJ+Dwc=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'cf7558e676ae25234625764d52b7b334cdfac9f762a089ef097c235d2357f2f9190453267aa9517c2b21a82531ca704b5cd6753da937df0774c440624ba02a11') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 20ms (View: 5, DB: 0) | 200 OK [http://looce.com/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 04:10:03) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"FrSNMP3kKSSi1pUgi6kkRjalBsZ3VmROmyKyTAJ+Dwc=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '65d6254d99f26f2d8e6e1936b62b218a96ccdf103afca1b01073d1344a618153b36a82da5c700e261806f949ebf6e5724cd08da883f5c02b981f21460fd7f867') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 20ms (View: 5, DB: 0) | 200 OK [http://looce.com/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 04:10:04) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"FrSNMP3kKSSi1pUgi6kkRjalBsZ3VmROmyKyTAJ+Dwc=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'd346771f6ec88f970d0abc88bcb4f0ec5961ee537bf228c6420ebe224ef386b1cdcd0e062845b29f1a27bf4f454de968953e984955901b2ab3f9f7e22e79bd27') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 20ms (View: 6, DB: 0) | 200 OK [http://looce.com/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 04:10:14) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 15ms (View: 6, DB: 0) | 200 OK [http://looce.com/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 04:10:23) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"FrSNMP3kKSSi1pUgi6kkRjalBsZ3VmROmyKyTAJ+Dwc=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '59f4f1e9f6ed1067132d5e9c6144fc8fb3f3bc0cd5bd6884f554bca1249299794aef91c937d5e5c51c1958a42998ce92d4449640bc3eb3c34b4c59390fa9eb82') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 19ms (View: 5, DB: 0) | 200 OK [http://looce.com/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 04:10:50) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"FrSNMP3kKSSi1pUgi6kkRjalBsZ3VmROmyKyTAJ+Dwc=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '0b28766bc0d36cb2c1c0bb520e177b439a6e9bc932f45195d5cd05281d4fc81235c74007074beb72ecb92fed1ba0e52256cfe424d5977070b8f56f54ed14226b') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 20ms (View: 6, DB: 0) | 200 OK [http://looce.com/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 04:10:53) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"FrSNMP3kKSSi1pUgi6kkRjalBsZ3VmROmyKyTAJ+Dwc=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = 'c9acb16276d76775294b7fbcddb1c6bfc8ee176a5a7072a9f71e7385663b3f9c1181820ff24a254c374e959fd3b9eaa09f7ae33efebc2070e3437d7c8a4bfd41') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 19ms (View: 5, DB: 0) | 200 OK [http://looce.com/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 04:10:54) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"FrSNMP3kKSSi1pUgi6kkRjalBsZ3VmROmyKyTAJ+Dwc=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '41c79e5ad601d2ca0d5cb1a5706624df9f9bbdf22c041243f85bb189bcda5fd176212f207d87d354e49fc80c100b5685a0199869771a5db8d1b00ae7c036aa49') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 20ms (View: 5, DB: 0) | 200 OK [http://looce.com/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 04:11:31) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"FrSNMP3kKSSi1pUgi6kkRjalBsZ3VmROmyKyTAJ+Dwc=", "user"=>{"username"=>"jakedahn", "password"=>"batsoup221", "email"=>"jake@ang.st"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'jake@ang.st') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'jakedahn') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '0e752df9eceab12f576c40ec82119502b82ca94f06399c1073e783735a8d9cdaca3896080a26a48c8910fd4bf4a3c96cb4b2cf5be634ace22634c25da611a76c') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 11, DB: 0) | 200 OK [http://looce.com/users]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:12:52) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:12:52) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:15:14) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:15:15) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:15:24) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:15:25) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:15:44) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:15:45) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:16:25) [GET]
+
+ActionController::RoutingError (No route matches "/rails/info/properties" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 04:35:50) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/user_sessions/new.haml:
+1: %h3 Login
+2: 
+3: - form_for @user do |f|
+4:   %fieldset
+5:     = f.label :username
+6:     = f.text_field :username
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    app/views/user_sessions/new.haml:3:in `_run_haml_app47views47user_sessions47new46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (50.3ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 04:36:51) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/user_sessions/new.haml:
+1: %h3 Login
+2: 
+3: - form_for @user do |f|
+4:   %fieldset
+5:     = f.label :username
+6:     = f.text_field :username
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    app/views/user_sessions/new.haml:3:in `_run_haml_app47views47user_sessions47new46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (49.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 04:36:52) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/user_sessions/new.haml:
+1: %h3 Login
+2: 
+3: - form_for @user do |f|
+4:   %fieldset
+5:     = f.label :username
+6:     = f.text_field :username
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    app/views/user_sessions/new.haml:3:in `_run_haml_app47views47user_sessions47new46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (52.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 04:37:38) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 72ms (View: 62, DB: 0) | 200 OK [http://looce.com/login]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2009-12-27 04:37:43) [POST]
+  Parameters: {"commit"=>"Register", "user_session"=>{"username"=>"jakedahn", "password"=>"batsoup221"}, "authenticity_token"=>"FrSNMP3kKSSi1pUgi6kkRjalBsZ3VmROmyKyTAJ+Dwc="}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".username) = 'jakedahn') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 184ms (View: 4, DB: 0) | 200 OK [http://looce.com/user_sessions]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-12-27 04:39:42) [GET]
+  Parameters: {"id"=>"current"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/edit
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/users/edit.haml:
+1: %h3 Edit
+2: 
+3: - form_for @user do |f|
+4:   %fieldset
+5:     = f.label :username
+6:     = f.text_field :username
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    app/views/users/edit.haml:3:in `_run_haml_app47views47users47edit46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (48.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-12-27 04:40:00) [GET]
+  Parameters: {"id"=>"current"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/edit
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/users/edit.haml:
+1: %h3 Edit
+2: 
+3: - form_for @user_session do |f|
+4:   %fieldset
+5:     = f.label :username
+6:     = f.text_field :username
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    app/views/users/edit.haml:3:in `_run_haml_app47views47users47edit46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (51.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-12-27 04:41:20) [GET]
+  Parameters: {"id"=>"current"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/edit
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/users/edit.haml:
+1: %h3 Edit
+2: 
+3: - form_for @user do |f|
+4:   %fieldset
+5:     = f.label :username
+6:     = f.text_field :username
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    app/views/users/edit.haml:3:in `_run_haml_app47views47users47edit46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    vendor/gems/chriseppstein-compass-0.8.17/lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (48.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-12-27 04:41:25) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 15ms (View: 4, DB: 0) | 200 OK [http://looce.com/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:51:37) [GET]
+
+ActionController::RoutingError (No route matches "/l" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:51:39) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:51:39) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:51:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:51:41) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20091227091708)
+Migrating to CreateDiscussions (20091227104530)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TABLE "discussions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "subject" varchar(255), "message" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091227104530')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("discussions")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mDiscussion Create (0.5ms)[0m   [0;1mINSERT INTO "discussions" ("created_at", "author", "updated_at", "subject", "message") VALUES('2009-12-27 10:53:18', 'jake', '2009-12-27 10:53:18', 'test subject', 'zomgwtfbbq this is a test message')[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:53:23) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 04:53:23) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 04:53:28) [GET]
+  [4;36;1mDiscussion Load (0.9ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 26ms (View: 20, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 04:53:53) [GET]
+  [4;35;1mDiscussion Load (1.1ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 16ms (View: 11, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 04:55:12) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 04:57:20) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 04:59:26) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:01:28) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:01:34) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:02:03) [GET]
+  [4;35;1mDiscussion Load (0.9ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:04:08) [GET]
+  [4;36;1mDiscussion Load (0.8ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 15ms (View: 6, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:04:35) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:04:47) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 16ms (View: 11, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:04:59) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:05:06) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:05:27) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:06:02) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:06:31) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:07:15) [GET]
+  [4;36;1mDiscussion Load (0.6ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:08:24) [GET]
+  [4;35;1mDiscussion Load (0.6ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:08:59) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:09:35) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:10:04) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:13:13) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:15:47) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 17ms (View: 12, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:16:08) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:16:47) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:17:05) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:18:17) [GET]
+  [4;36;1mDiscussion Load (0.6ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:18:50) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:18:53) [GET]
+  [4;36;1mDiscussion Load (0.6ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:19:26) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:19:36) [GET]
+  [4;36;1mDiscussion Load (0.6ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:20:10) [GET]
+  [4;35;1mDiscussion Load (0.8ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:20:11) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:20:12) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:20:26) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:20:44) [GET]
+  [4;35;1mDiscussion Load (0.6ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:23:53) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:23:59) [GET]
+  [4;35;1mDiscussion Load (0.6ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:25:03) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:25:04) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:25:12) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:25:27) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:25:32) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:25:42) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:25:55) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:26:21) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:26:55) [GET]
+  [4;36;1mDiscussion Load (0.6ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 16ms (View: 8, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:27:16) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:27:29) [GET]
+  [4;36;1mDiscussion Load (0.8ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:27:54) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:28:23) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:28:48) [GET]
+  [4;35;1mDiscussion Load (0.8ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:29:09) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:29:15) [GET]
+  [4;35;1mDiscussion Load (0.5ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:29:43) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:29:59) [GET]
+  [4;35;1mDiscussion Load (0.7ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:30:10) [GET]
+  [4;36;1mDiscussion Load (0.5ms)[0m   [0;1mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing DiscussionsController#index (for 127.0.0.1 at 2009-12-27 05:30:28) [GET]
+  [4;35;1mDiscussion Load (0.6ms)[0m   [0mSELECT * FROM "discussions" [0m
+Rendering template within layouts/application
+Rendering discussions/index
+Completed in 22ms (View: 17, DB: 1) | 200 OK [http://looce.com/discussions]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 05:33:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 05:33:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 05:40:56) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 05:40:57) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 05:40:58) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 05:40:58) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 05:41:10) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 05:41:10) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 05:46:51) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 05:46:51) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 05:46:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 05:46:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

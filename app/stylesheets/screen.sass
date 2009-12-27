@@ -1,0 +1,27 @@
+@import blueprint/reset.sass
+@import blueprint
+@import blueprint/modules/form.sass
+@import partials/base.sass
+
+@import application.sass
+@import typography.sass
+@import discussions.sass
+
+body.bp
+  +blueprint-utilities
+  +blueprint-debug
+  +blueprint-interaction
+form.bp
+  +blueprint-form
+
+body.three-col
+  #container
+    +container
+  #header, #footer
+    +column(!blueprint_grid_columns)
+  #sidebar
+    !sidebar_columns = floor(!blueprint_grid_columns / 3)
+    +column(!sidebar_columns)
+  #content
+    !content_columns = ceil(2 * !blueprint_grid_columns / 3)
+    +column(!content_columns, true)
