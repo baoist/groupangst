@@ -12,7 +12,8 @@
   %body
     #wrapper
       #header
-        %h1= "Group Angst"
+        %h1
+          = link_to "Group Angst", root_url
         %ul#nav
           -if current_user
             %li= link_to "Edit Profile", edit_user_path(:current)
