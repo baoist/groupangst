@@ -12,8 +12,6 @@
   %body
     #wrapper
       #header
-        %h1
-          = link_to "Group Angst", root_url
         %ul#nav
           -if current_user
             %li= link_to "Edit Profile", edit_user_path(:current)
@@ -21,6 +19,9 @@
           - else
             %li= link_to "Register", new_user_path
             %li= link_to "Login", login_path
+      
+        %h1
+          = link_to "Group Angst", root_url
           
       #flashInfo
         = h flash[:notice]

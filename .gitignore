@@ -3,3 +3,4 @@ log/development.log
 *.log
 log/*
 .gitignore
+tmp/sass-cache/

@@ -1,71 +1,76 @@
 /* line 1, ../../../app/stylesheets/application.sass */
 body {
+  background: #D3E1E9;
   margin: 20px 20px 20px 20px; }
 
-/* line 3, ../../../app/stylesheets/application.sass */
+/* line 4, ../../../app/stylesheets/application.sass */
 ul {
   margin: 0;
   padding: 0; }
 
-/* line 7, ../../../app/stylesheets/application.sass */
+/* line 8, ../../../app/stylesheets/application.sass */
 a {
   color: #3DA9F0;
   text-decoration: none; }
-  /* line 10, ../../../app/stylesheets/application.sass */
+  /* line 11, ../../../app/stylesheets/application.sass */
   a:hover {
     color: #0E7AEB; }
 
-/* line 13, ../../../app/stylesheets/application.sass */
+/* line 14, ../../../app/stylesheets/application.sass */
 fieldset {
   margin-top: 15px; }
 
-/* line 16, ../../../app/stylesheets/application.sass */
+/* line 17, ../../../app/stylesheets/application.sass */
 label {
   font-weight: bold;
   display: block;
   margin: 0 0 5px 0; }
 
-/* line 21, ../../../app/stylesheets/application.sass */
+/* line 22, ../../../app/stylesheets/application.sass */
 .errorExplanation {
   background: #F9A6AA;
   color: #fff;
   text-shadow: #ccc 0px 0px 3px;
   padding: 10px;
   border: 1px solid #F7000B; }
-  /* line 27, ../../../app/stylesheets/application.sass */
+  /* line 28, ../../../app/stylesheets/application.sass */
   .errorExplanation h2 {
     margin-top: 0;
     font-size: 1.5em; }
-  /* line 30, ../../../app/stylesheets/application.sass */
+  /* line 31, ../../../app/stylesheets/application.sass */
   .errorExplanation ul {
     margin: 10px 0 0 15px; }
 
-/* line 33, ../../../app/stylesheets/application.sass */
+/* line 34, ../../../app/stylesheets/application.sass */
 #wrapper {
-  width: 960px;
+  width: 800px;
   margin: 0 auto;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  background: rgba(255, 255, 255, .8);
+  padding: 20px;
+  border-bottom: 7px solid rgba(0,0,0, .1);
+  border-right: 10px solid rgba(0,0,0, .07); }
 
-/* line 38, ../../../app/stylesheets/application.sass */
+/* line 43, ../../../app/stylesheets/application.sass */
 #header {
   margin: 0 0 25px 0; }
-  /* line 40, ../../../app/stylesheets/application.sass */
+  /* line 45, ../../../app/stylesheets/application.sass */
   #header #nav {
     float: right; }
-    /* line 42, ../../../app/stylesheets/application.sass */
+    /* line 47, ../../../app/stylesheets/application.sass */
     #header #nav li {
       display: inline;
       border-right: 1px solid #666;
       padding: 0 5px 0 0; }
-      /* line 46, ../../../app/stylesheets/application.sass */
+      /* line 51, ../../../app/stylesheets/application.sass */
       #header #nav li:last-child {
         border: none; }
 
-/* line 49, ../../../app/stylesheets/application.sass */
+/* line 54, ../../../app/stylesheets/application.sass */
 #footer {
   clear: both;
   margin-top: 25px; }
-  /* line 52, ../../../app/stylesheets/application.sass */
+  /* line 57, ../../../app/stylesheets/application.sass */
   #footer p.copy {
     font-size: .8em;
     font-style: italic; }
