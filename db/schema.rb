@@ -14,7 +14,6 @@ ActiveRecord::Schema.define(:version => 20091227104530) do
   create_table "discussions", :force => true do |t|
     t.string   "author"
     t.string   "subject"
-    t.string   "message"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
