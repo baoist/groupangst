@@ -4,3 +4,4 @@ log/development.log
 log/*
 .gitignore
 tmp/sass-cache/
+public/stylesheets/compiled/
