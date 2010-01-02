@@ -12,7 +12,7 @@
   %body
     #wrapper
       #header
-        %h1= "Less Angst"
+        %h1= "Group Angst"
         %ul#nav
           -if current_user
             %li= link_to "Edit Profile", edit_user_path(:current)
@@ -22,10 +22,10 @@
             %li= link_to "Login", login_path
           
       #flashInfo
-        = h(flash[:notice])
-        = h(flash[:error])
+        = h flash[:notice]
+        = h flash[:error]
       #content
         = yield
       #footer
         %p.copy
-          &copy; 2009 Jake Dahn | Powered By <a href="http://less.ang.st">less</a>  <a href="http://ang.st">Ang.st</a> 
+          &copy; 2010 Jake Dahn | Powered By <a href="http://group.ang.st">Group Ang.st</a>

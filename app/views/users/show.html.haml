@@ -1,0 +1,24 @@
+- title "User"
+
+%p
+  %strong Username:
+  =h @user.username
+%p
+  %strong Email:
+  =h @user.email
+%p
+  %strong Crypted Password:
+  =h @user.crypted_password
+%p
+  %strong Password Salt:
+  =h @user.password_salt
+%p
+  %strong Persistence Token:
+  =h @user.persistence_token
+
+%p
+  = link_to "Edit", edit_user_path(@user)
+  |
+  = link_to "Destroy", @user, :confirm => 'Are you sure?', :method => :delete
+  |
+  = link_to "View All", users_path
