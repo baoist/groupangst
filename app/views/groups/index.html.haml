@@ -7,5 +7,5 @@
     %span.controls
       = link_to 'Edit', edit_group_path(group)
       = link_to 'Destroy', group, :confirm => 'Are you sure?', :method => :delete
-
-%p= link_to "New Group", new_group_path
+- if current_user
+  %p= link_to "New Group", new_group_path

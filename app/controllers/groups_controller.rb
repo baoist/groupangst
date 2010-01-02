@@ -1,40 +1,68 @@
 class GroupsController < ApplicationController
   def index
     @groups = Group.all
+    flash[:notice] = "foo"
   end
   
   def new
-    @group = Group.new
+    if current_user
+      @group = Group.new
+    else
+      flash[:notice] = "You must be logged in to create a group."
+      redirect_to groupts_url
+    end
   end
   
   def create
-    @group = Group.new(params[:group])
-    if @group.save
-      flash[:notice] = "Successfully created group."
-      redirect_to groups_url
+    if current_user
+      @group = Group.new(params[:group])
+      if @group.save
+        flash[:notice] = "Successfully created group."
+        redirect_to groups_url
+      else
+        render :action => 'new'
+      end
     else
-      render :action => 'new'
+      flash[:notice] = "You must be logged in to create a group."
+      redirect_to groups_url
     end
   end
   
   def edit
-    @group = Group.find(params[:id])
+    fetch_group = Group.find(params[:id])
+    if fetch_group.user_id == current_user.id
+      @group = fetch_group
+    else
+      flash[:notice] = "You must be the owner of this group to edit it."
+      redirect_to groups_path
+    end
   end
   
   def update
-    @group = Group.find(params[:id])
-    if @group.update_attributes(params[:group])
-      flash[:notice] = "Successfully updated group."
-      redirect_to groups_url
+    fetch_group = Group.find(params[:id])
+    if fetch_group.user_id == current_user.id
+      @group = fetch_group
+      if @group.update_attributes(params[:group])
+        flash[:notice] = "Successfully updated group."
+        redirect_to groups_url
+      else
+        render :action => 'edit'
+      end
     else
-      render :action => 'edit'
+      flash[:notice] = "You must be the owner of this group to edit it."
+      redirect_to groups_url
     end
   end
   
   def destroy
-    @group = Group.find(params[:id])
-    @group.destroy
-    flash[:notice] = "Successfully destroyed group."
-    redirect_to groups_url
+    fetch_group = Group.find(params[:id])
+    if fetch_group.user_id == current_user.id
+      @group.destroy
+      flash[:notice] = "Successfully destroyed group."
+      redirect_to groups_url
+    else
+      flash[:notice] = "You must be the owner of this group to edit it."
+      redirect_to groups_url
+    end
   end
 end
