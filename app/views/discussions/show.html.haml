@@ -1,0 +1,18 @@
+- title "Discussion"
+
+%p
+  %strong Subject:
+  =h @discussion.subject
+%p
+  %strong Body:
+  =h @discussion.body
+%p
+  %strong Member:
+  =h @discussion.member_id
+
+%p
+  = link_to "Edit", edit_discussion_path(@discussion)
+  |
+  = link_to "Destroy", @discussion, :confirm => 'Are you sure?', :method => :delete
+  |
+  = link_to "View All", discussions_path

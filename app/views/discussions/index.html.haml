@@ -1,0 +1,17 @@
+- title "Discussions"
+
+%table
+  %tr
+    %th Subject
+    %th Body
+    %th Member
+  - for discussion in @discussions
+    %tr
+      %td= h discussion.subject
+      %td= h discussion.body
+      %td= h discussion.member_id
+      %td= link_to 'Show', discussion
+      %td= link_to 'Edit', edit_discussion_path(discussion)
+      %td= link_to 'Destroy', discussion, :confirm => 'Are you sure?', :method => :delete
+
+%p= link_to "New Discussion", new_discussion_path

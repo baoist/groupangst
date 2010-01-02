@@ -1,0 +1,7 @@
+one:
+  body: MyText
+  member_id: 1
+
+two:
+  body: MyText
+  member_id: 1

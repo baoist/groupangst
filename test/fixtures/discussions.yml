@@ -1,0 +1,9 @@
+one:
+  subject: MyString
+  body: MyText
+  member_id: 1
+
+two:
+  subject: MyString
+  body: MyText
+  member_id: 1

@@ -1,0 +1,8 @@
+- title "Edit Discussion"
+
+= render :partial => 'form'
+
+%p
+  = link_to "Show", discussion_path(@discussion)
+  |
+  = link_to "View All", discussions_path

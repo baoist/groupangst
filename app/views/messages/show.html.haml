@@ -1,0 +1,15 @@
+- title "Message"
+
+%p
+  %strong Body:
+  =h @message.body
+%p
+  %strong Member:
+  =h @message.member_id
+
+%p
+  = link_to "Edit", edit_message_path(@message)
+  |
+  = link_to "Destroy", @message, :confirm => 'Are you sure?', :method => :delete
+  |
+  = link_to "View All", messages_path
