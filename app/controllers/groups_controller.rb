@@ -57,6 +57,7 @@ class GroupsController < ApplicationController
   def destroy
     fetch_group = Group.find(params[:id])
     if fetch_group.user_id == current_user.id
+      @group = fetch_group
       @group.destroy
       flash[:notice] = "Successfully destroyed group."
       redirect_to groups_url
