@@ -1,5 +1,5 @@
-== Less Angst
+== Group Angst
 
-Less Angst was created to fill the void that Google Groups leaves behind. You know what I'm talking about; with all that spam and horrible moderation experience.
+Group Angst is a meant to be a simple replacement for Google Groups. Available for self-installation in addition it will be deployed on Heroku once it reaches a point of production quality.
 
-So in the spirit of learning I decided to build an open source community tool which will allow any group of people to run their own group and manage their own discussions.
+It is also meant as a learning project, so please if you see anything that doesn't look right or something that could be better, speak up!
