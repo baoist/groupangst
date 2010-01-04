@@ -1,0 +1,11 @@
+%h2=  "Group"
+
+
+.group{:id => @group.name}
+  %span.name= h @group.name
+  %span.desc= h @group.description
+  %span.controls
+  - if current_user.id == @group.user_id
+    = link_to 'Edit', edit_group_path(@group)
+    = link_to 'Destroy', @group, :confirm => 'Are you sure?', :method => :delete
+  = link_to "Join Group!"

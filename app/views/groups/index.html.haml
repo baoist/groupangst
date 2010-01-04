@@ -5,7 +5,9 @@
     %span.name= h group.name
     %span.desc= h group.description
     %span.controls
+    - if current_user.id == group.user_id
       = link_to 'Edit', edit_group_path(group)
       = link_to 'Destroy', group, :confirm => 'Are you sure?', :method => :delete
-- if current_user
+- if current_user  
   %p= link_to "New Group", new_group_path
+  

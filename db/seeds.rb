@@ -21,3 +21,8 @@ Group.create([
   {:name => "Group 4", :description => "Group 4 is the greatest group evar.", :user_id => 1},
   {:name => "Group 5", :description => "Group 5 is the greatest group evar.", :user_id => 1}
 ])
+
+Membership.create([
+  {:user_id => 1, :group_id => 4}
+  {:user_id => 1, :group_id => 6}
+])
