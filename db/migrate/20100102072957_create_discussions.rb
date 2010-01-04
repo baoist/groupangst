@@ -3,7 +3,7 @@ class CreateDiscussions < ActiveRecord::Migration
     create_table :discussions do |t|
       t.string :subject
       t.text :body
-      t.integer :member_id
+      t.integer :user_id
       t.timestamps
     end
   end

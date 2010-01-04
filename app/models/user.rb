@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
   acts_as_authentic
   has_many :groups
+  has_many :memberships
   
   validates_presence_of :username
   validates_uniqueness_of :username, :email, :allow_blank => true
